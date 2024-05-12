@@ -3,7 +3,7 @@
 using namespace std;
 void reverse(string& str,int i,int j){
     cout<<str<<endl;
-    if(i>j/2) return;
+    if(i>j) return;
 
     
         swap(str[i],str[j]);
